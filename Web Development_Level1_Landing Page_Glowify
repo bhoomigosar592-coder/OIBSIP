@@ -1,0 +1,27 @@
+
+# Glowify - Skincare Landing Page
+
+## About the Project
+Glowify is a responsive skincare landing page created
+as part of the Oasis Infobyte Web Development Internship.
+
+The website introduces a skincare brand and includes
+a navigation bar, hero section, features, about section,
+testimonials, and contact footer.
+
+## Technologies Used
+- HTML5
+- CSS3
+- CSS Flexbox
+- CSS Grid
+- CSS Media Queries
+
+## Features
+- Responsive navigation bar
+- Hero section with call-to-action button
+- Skincare features section
+- About section with an image
+- Customer testimonial section
+- Contact and social media links
+- Responsive layout for mobile screens
+
