@@ -1,0 +1,182 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F1E9;
+    color: #3F332E;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.site-header {
+    background-color: #754B3E;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 4px solid #C58B70;
+}
+
+.site-header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.site-header p {
+    font-size: 15px;
+    color: #F1E5D9;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 550px;
+    margin: 50px auto;
+    flex: 1;
+}
+
+/* Converter Card */
+.converter-card {
+    background-color: #FFFFFF;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(91, 59, 46, 0.12);
+    border: 1px solid #E8D8CB;
+}
+
+.converter-card h2 {
+    text-align: center;
+    color: #754B3E;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 9px;
+    color: #5B4035;
+}
+
+/* Input and Select */
+input,
+select {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border: 1px solid #D8C3B4;
+    border-radius: 8px;
+    background-color: #FCFAF7;
+    font-size: 15px;
+    color: #3F332E;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #B87558;
+    box-shadow: 0 0 5px rgba(184, 117, 88, 0.25);
+}
+
+/* Convert Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #B87558;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #754B3E;
+    transform: translateY(-2px);
+}
+
+/* Error Message */
+.error-message {
+    color: #B23A32;
+    font-size: 14px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+/* Results Section */
+.results {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #F1E5D9;
+    border-radius: 10px;
+    border: 1px solid #E2C8B5;
+}
+
+.results h3 {
+    color: #754B3E;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.result-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5px;
+    border-bottom: 1px solid #D8C3B4;
+    font-size: 15px;
+}
+
+.result-row:last-child {
+    border-bottom: none;
+}
+
+.result-row span:last-child {
+    font-weight: bold;
+    color: #754B3E;
+}
+
+/* Footer */
+footer {
+    background-color: #754B3E;
+    color: #F1E5D9;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .site-header h1 {
+        font-size: 24px;
+    }
+
+    .container {
+        margin: 30px auto;
+    }
+
+    .converter-card {
+        padding: 25px 20px;
+    }
+
+    .converter-card h2 {
+        font-size: 22px;
+    }
+
+    .result-row {
+        font-size: 14px;
+    }
+}
